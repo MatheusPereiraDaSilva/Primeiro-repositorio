@@ -3,7 +3,7 @@
 <h1> Primeira Pergunta </h1>
 
 Thaynan Leocadio: Oi! Você já se encontrou em uma situação onde não sabia o que fazer. Diversos ingredientes mas nenhuma ideia? O nosso site conseguiria proporcionar a você um norte, uma receita perfeita com tudo aquilo que você possui em sua casa.
-O quanto isso facilitaria  a sua vida?
+O quanto isso facilitaria  a sua vida?1
 
 <h1> Resposta </h1>
 
