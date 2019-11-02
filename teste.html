@@ -15,7 +15,7 @@
   </head>
   <body>
 
-
+<!-- Logotipo brand -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
 <div class="container">
 
@@ -24,29 +24,31 @@
 </div>
 
 
-
+<!-- Ferramenta de pesquisa no navbrand -->
 <div clas="row col-6 mx-auto">
 <div class="input-group d-none d-md-flex">
   <input type="text" class="form-control" placeholder="Busca rápida" aria-label="Text input with segmented dropdown button">
   <div class="input-group-append">
     <button type="button" class="btn btn-outline-secondary">Buscar</button>
-    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button type="button" class="btn btn-outline-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-filter"></i>
       <span class="sr-only">Toggle Dropdown</span>
     </button>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Por nome de receitas</a>
-      <a class="dropdown-item" href="#">Por nome de ingredientes</a>
+      <h6 class="p-2"> Filtrar por: </h6>
+      <a class="dropdown-item mr-0 p-2" href="#">Por nome de receitas</a>
+      <a class="dropdown-item mr-0 p-2" href="#">Por nome de ingredientes</a>
     </div>
   </div>
 </div>
 <div class="d-md-none">
-  <i class="fas fa-search fa-2x"></i>
+  <a href="#"><i class="fas fa-search fa-2x"></i></a>
 </div>
 </div>
 
 
 
-
+<!-- Foto de perfil do usuário no navbrand -->
 <div clas="row col-3">
        <ul class="nav navbar-nav">
               <li>
@@ -68,135 +70,353 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+<!-- Menu dropdown -->
+
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto">
-
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-otter fa-2x d-lg-none"></i> Carnes</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Carnes</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+        <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
+
+
+
+     
         <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-candy-cane fa-2x d-lg-none"></i> Doces</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Doces</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+      <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div>    
      </div>
       </li>
+
+
+
+
         <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-drumstick-bite fa-2x d-lg-none"></i> Frangos</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Frangos</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+      <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
+
+
+
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-birthday-cake fa-2x d-lg-none"></i> Bolos</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bolos</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a> 
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-receipt fa-2x d-lg-none"></i> Massas</a>
-        <div class="dropdown show d-none d-lg-block">
-        <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Massas</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
-     </div>
-      </li>
+      
+
+
+
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-mortar-pestle fa-2x d-lg-none"></i> Sopas</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Sopas</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
-     </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-fish fa-2x d-lg-none"></i> Peixes</a>
-        <div class="dropdown show d-none d-lg-block">
-        <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Peixes</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
-     </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-leaf fa-2x d-lg-none"></i> Saladas</a>
-        <div class="dropdown show d-none d-lg-block">
-        <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Saladas</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+      <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
 
+
+
+
+
       <li class="nav-item active">
-       <a class="nav-link d-lg-none" href="#"><i class="fas fa-apple-alt fa-2x d-lg-none"></i> Saudáveis</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-angle-double-right fa-2x d-lg-none"></i> Todas as categorias</a>
+        <a class="nav-link d-none d-lg-block" href="#">Todas as categorias</a>
+      </li>
 
       <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Saudáveis</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
     </li>
+
+
+
+
+
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-sun fa-2x d-lg-none"></i> Almoço</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Almoço</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
+
+
+
+
+
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-moon fa-2x d-lg-none"></i> Jantar</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Jantar</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
+
+
+
+
       <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-hamburger fa-2x d-lg-none"></i> Lanches</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Lanches</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
+
+
+
+
      <li class="nav-item active">
         <a class="nav-link d-lg-none" href="#"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bebidas</a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bebidas</a>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-       <a class="dropdown-item" href="#">Action</a>      
-     </div>
+       <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
+        <div class="col-sm-4 d-sm-table-cell float-left">
+          <h5>Receitas do dia</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Peixe assado de frango</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+       
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-left">
+        <h5>Receitas da semana</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+      <div class="col-sm-4 d-sm-table-cell float-right">
+        <h5>Receitas do mês</h5>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+        <a class="dropdown-item p-0 m-0" href="#">Teste</a>
+      </div>
+     </div> 
      </div>
       </li>
-
     </ul>
 </div>
 
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-   
   </div>
 
 </nav>
