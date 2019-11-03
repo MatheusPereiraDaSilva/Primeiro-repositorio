@@ -19,18 +19,18 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
 <div class="container">
 
-<div class="row col-3">
-    <a class="navbar-brand" href="#">Bananinhas Receitas</a>
+<div>
+    <a class="navbar-brand" href="#"><img src="logo.png"></a>
 </div>
 
 
 <!-- Ferramenta de pesquisa no navbrand -->
-<div clas="row col-6 mx-auto">
+<div>
 <div class="input-group d-none d-md-flex">
   <input type="text" class="form-control" placeholder="Busca rápida" aria-label="Text input with segmented dropdown button">
   <div class="input-group-append">
-    <button type="button" class="btn btn-outline-secondary">Buscar</button>
-    <button type="button" class="btn btn-outline-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button type="button" class="btn btn-outline-light"><i class="fas fa-search"></i> Buscar</button>
+    <button type="button" class="btn btn-outline-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <i class="fas fa-filter"></i>
       <span class="sr-only">Toggle Dropdown</span>
     </button>
@@ -42,36 +42,46 @@
   </div>
 </div>
 <div class="d-md-none">
-  <a href="#"><i class="fas fa-search fa-2x"></i></a>
+  <a href="#">
+  <div>
+  <i class="fas fa-search fa-2x"></i>
 </div>
+<div class="texto">
+        <span class="span1">Buscar</span>
+      </div>
+</div>
+</a>
 </div>
 
 
 
 <!-- Foto de perfil do usuário no navbrand -->
-<div class="row col-3">
-<div clas="row col-6">
-       <ul class="nav navbar-nav">
-              <li>
-              <a href="#">
-                <div class="inset">
-                 <img src="logoteste.jpg">
-                </div>
-                </a>
-              </li>
-        </ul>
+
+
+<div class="perfil">      
+    <a href="#">
+        <div class="inset" style="data-text="Mudar"">
+             <img src="logoteste.jpg">
+        </div>
+    </a>             
 </div>
 
 
-<div class="row col-6">
-       <ul class="nav navbar-nav">
-           <li class="mr-4">
-              <a href="#"><i class="fas fa-sign-in-alt fa-3x"></i></a>
-            </li>
-        <ul class="nav navbar-nav">
-</div>
+<!-- Ícone para logar ou cadastrar -->
 
+<!--
+<div class="entrar">
+    <a href="#">
+       <div class="icone">
+        <i class="fas fa-sign-in-alt fa-2x mx-auto"></i>
+       </div>
+       <div class="texto">
+        <span class="span1">Entrar</span>
+      </div>
+    </a>
 </div>
+-->
+
 
 
 </div>
@@ -90,7 +100,7 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-otter fa-2x d-lg-none"></i> Carnes</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-otter fa-2x d-lg-none"></i><span>Carnes</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Carnes</a>
         <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
@@ -123,7 +133,7 @@
 
      
         <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-candy-cane fa-2x d-lg-none"></i> Doces</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-candy-cane fa-2x d-lg-none"></i> <span>Doces</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Doces</a>
       <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
@@ -157,7 +167,7 @@
 
 
         <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-drumstick-bite fa-2x d-lg-none"></i> Frangos</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-drumstick-bite fa-2x d-lg-none"></i> <span>Frangos</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Frangos</a>
       <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
@@ -190,7 +200,7 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-birthday-cake fa-2x d-lg-none"></i> Bolos</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-birthday-cake fa-2x d-lg-none"></i> <span>Bolos</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bolos</a>
        <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
@@ -223,7 +233,7 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-mortar-pestle fa-2x d-lg-none"></i> Sopas</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-mortar-pestle fa-2x d-lg-none"></i> <span>Sopas</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Sopas</a>
       <div class="dropdown-menu row" aria-labelledby="dropdownMenuLink">
@@ -258,12 +268,14 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-angle-double-right fa-2x d-lg-none"></i> Todas as categorias</a>
-        <a class="nav-link d-none d-lg-block" href="#">Todas as categorias</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-angle-double-right fa-2x d-lg-none"></i> <span>Todas as categorias</span></a>
+        <a class="nav-link1 d-none d-lg-block pt-2 mx-2" href="#">Todas as categorias</a>
       </li>
 
+  <li class="nav-item active">
+  <a class="nav-link d-lg-none" href="#"><i class="fas fa-leaf fa-2x fa-2x d-lg-none"></i> <span>Saudáveis</span></a>
       <div class="dropdown show d-none d-lg-block">
-        <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Saudáveis</a>
+        <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Saudáveis</a>
        <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
         <div class="col-sm-4 d-sm-table-cell float-left">
           <h5>Receitas do dia</h5>
@@ -295,7 +307,7 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-sun fa-2x d-lg-none"></i> Almoço</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-sun fa-2x d-lg-none"></i> <span>Almoço</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Almoço</a>
        <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
@@ -330,7 +342,7 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-moon fa-2x d-lg-none"></i> Jantar</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-moon fa-2x d-lg-none"></i> <span>Jantar</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Jantar</a>
        <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
@@ -364,7 +376,7 @@
 
 
       <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-hamburger fa-2x d-lg-none"></i> Lanches</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-hamburger fa-2x d-lg-none"></i> <span>Lanches</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Lanches</a>
        <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
@@ -398,7 +410,7 @@
 
 
      <li class="nav-item active">
-        <a class="nav-link d-lg-none" href="#"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bebidas</a>
+        <a class="nav-link d-lg-none" href="#"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> <span>Bebidas</span></a>
         <div class="dropdown show d-none d-lg-block">
         <a class="btn btn-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mug-hot fa-2x d-lg-none"></i> Bebidas</a>
        <div class="dropdown-menu dropdown-menu-right row" aria-labelledby="dropdownMenuLink">
