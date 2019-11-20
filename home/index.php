@@ -1,7 +1,7 @@
 <?php
 
-include "nav.php";
-include "links.php";
+include "../home/nav.php";
+include "../home/links.php";
 
 ?>
 <!doctype html>
@@ -203,7 +203,7 @@ include "links.php";
 
 <?php
 
-include "footer.php";
+include "../home/footer.php";
 
 ?>
   </body>
