@@ -1,9 +1,8 @@
 <?php
 
 //index.php
-include('database_connection.php');
-
-include "links.php";
+include('../pesquisa/database_connection.php');
+include "../home/links.php";
 
 ?>
 
@@ -12,11 +11,11 @@ include "links.php";
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Live Data Search using Multiple Tag in PHP with Ajax</title>  
-  <link rel="stylesheet" type="text/css" href="bootstrap-taginput/bootstrap-tagsinput.css"/>
-    <link rel="stylesheet" type="text/css" href="bootstrap-taginput/bootstrap-tagsinput.css"/>
-    <link rel="stylesheet" type="text/css" href="bootstrap-taginput/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="jquery-ui.css"/> 
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="../bootstrap-taginput/bootstrap-tagsinput.css"/>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-taginput/bootstrap-tagsinput.css"/>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-taginput/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../node_modules/jquery/jquery-ui.css"/> 
+    <link rel="stylesheet" type="text/css" href="../node_modules/jquery/style.css"/>
   
   
   <style>
@@ -38,7 +37,7 @@ include "links.php";
 
        <div class="row">
        <div class="d-lg-none">
-       <a href="#"><img src="logo.png"></a>
+       <a href="#"><img src="../imagens/logo.png"></a>
        </div>
        
        <div class="d-lg-none">
@@ -109,7 +108,7 @@ include "links.php";
         
         <div class="col-6 mx-5 pt-2 pb-2">
         <div class="d-none d-lg-block">
-        <a href="#"><img src="logo.png"></a>
+        <a href="#"><img src="../imagens/logo.png"></a>
         </div>
         </div>
         <div class="list-inline mr-1 pt-3 pl-2">
@@ -445,15 +444,15 @@ $(document).ready(function(){
 
 <?php
 
-include "footer.php";
+include "../home/footer.php";
 
 ?>
 
-  <script src="bootstrap-taginput/bootstrap-tagsinput.min.js"></script>
-  <script src="bootstrap-taginput/bootstrap.min.js"></script>
-  <script src="jquery-ui.js"></script>
-  <script src="bootstrap-taginput/typeahead.bundle.js"></script>
-  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="../bootstrap-taginput/bootstrap-tagsinput.min.js"></script>
+  <script src="../bootstrap-taginput/bootstrap.min.js"></script>
+  <script src="../node_modules/jquery/jquery-ui.js"></script>
+  <script src="../bootstrap-taginput/typeahead.bundle.js"></script>
+  <script src="../js/jquery-1.10.2.min.js"></script>
 
   </body>
   </html>

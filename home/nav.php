@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/estilo.css">
-    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="fontawesome/css/brands.css" rel="stylesheet">
-    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/compiler/estilo.css">
+    <link href="../fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="../fontawesome/css/brands.css" rel="stylesheet">
+    <link href="../fontawesome/css/solid.css" rel="stylesheet">
     
   </head>
   <body>
@@ -25,7 +25,7 @@
 
        <div class="row">
        <div class="d-lg-none">
-       <a href="#"><img src="logo.png"></a>
+       <a href="#"><img src="../imagens/logo.png"></a>
        </div>
        
        <div class="d-lg-none">
@@ -98,7 +98,7 @@
         
         <div class="col-6">
         <div class="d-none d-lg-block">
-        <a href="#"><img src="logo.png"></a>
+        <a href="#"><img src="../imagens/logo.png"></a>
         </div>
         </div>
       
@@ -590,8 +590,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
