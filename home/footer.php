@@ -1,84 +1,98 @@
-<footer class="page-footer bg-primary">
+<?php
+include "links.php";
+?>
 
+<!doctype html>
+<html lang="pt-br">
+  <head>
+  </head>
+  <body>
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-primary pt-4">
+  
+  <!-- Footer Links -->
   <div class="container text-center text-md-left">
 
-
+    <!-- Grid row -->
     <div class="row">
 
-  
-      <div class="col-md-3 mx-auto">
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
 
+        <!-- Content -->
+        <h5 class="text-uppercase text-white">Footer Content</h5>
+        <p class="text-white">Here you can use rows and columns to organize your footer content.</p>
 
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Quem somos?</h5>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase text-white">Links</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#" class="text-white">Matheus Pereira</a>
+            <a href="#!">Link 1</a>
           </li>
           <li>
-            <a href="#" class="text-white">Felipe Siqueira</a>
+            <a href="#!">Link 2</a>
           </li>
           <li>
-            <a href="#" class="text-white">Thaynan Vilela</a>
+            <a href="#!">Link 3</a>
           </li>
           <li>
-            <a href="#" class="text-white">Uilson Castro</a>
+            <a href="#!">Link 4</a>
           </li>
         </ul>
 
       </div>
+      <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
 
-      <hr class="clearfix w-100 d-md-none">
-
-      <div class="col-md-3 mx-auto">
-
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Importantes</h5>
+        <!-- Links -->
+        <h5 class="text-uppercase text-white">Links</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#" class="text-white">Termo de compromisso</a>
+            <a href="#!">Link 1</a>
           </li>
           <li>
-            <a href="#" class="text-white">Como enviar receitas</a>
+            <a href="#!">Link 2</a>
           </li>
           <li>
-            <a href="#" class="text-white">Como filtrar receitas</a>
+            <a href="#!">Link 3</a>
           </li>
           <li>
-            <a href="#" class="text-white">Como criar conta</a>
+            <a href="#!">Link 4</a>
           </li>
         </ul>
 
       </div>
- 
-      <hr class="clearfix w-100 d-md-none">
+      <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
-
-      <div class="col-md-3 mx-auto">
-
-
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Redes sociais</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#" class="text-white"><i class="fab fa-facebook-f fa-1x pr-2"></i> Facebook</a>
-          </li>
-          <li>
-            <a href="#" class="text-white"><i class="fab fa-instagram pr-1"></i> Instagram</a>
-          </li>
-          <li>
-            <a href="#" class="text-white"><i class="fab fa-discord pr-1"></i> Discord</a>
-          </li>
-          <li>
-            <a href="#" class="text-white"><i class="fab fa-twitter fa-1x"></i> Twitter</a>
-          </li>
-        </ul>
-
-      </div>
     </div>
+    <!-- Grid row -->
+
   </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white bg-dark">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
 </footer>
+<!-- Footer -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

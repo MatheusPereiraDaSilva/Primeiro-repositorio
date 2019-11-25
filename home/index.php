@@ -8,7 +8,6 @@ include "../home/links.php";
 <html lang="pt-br">
   <head>
     <title>Página inicial</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap/compiler/estilo.css">
   </head>
   <body class="bg-light">
 
